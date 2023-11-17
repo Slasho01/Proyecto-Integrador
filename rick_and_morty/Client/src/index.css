@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+/*   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  background-color: black;
+  background-size: auto;
+  background-image: url('./components/img/pngwing.com.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

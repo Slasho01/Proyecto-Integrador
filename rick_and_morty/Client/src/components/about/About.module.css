@@ -1,0 +1,20 @@
+.h2 {
+    animation: cambiaColor 2s infinite;
+  }
+  
+  @keyframes cambiaColor {
+    0% {
+      text-shadow: 0 0 5px rgb(166, 196, 0); /* Sombra inicial */
+    }
+    
+    40% {
+        text-shadow: 0 0 5px lightcoral; /* Sombra intermedia */
+    }
+    
+    80% {
+        text-shadow: 0 0 5px aliceblue; /* Sombra final */
+    }
+    100% {
+        text-shadow: 0 0 5px rgb(166, 196, 0);; /* Sombra final */
+    }
+  }

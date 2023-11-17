@@ -1,0 +1,16 @@
+.links{
+    color: rgb(245, 245, 245);
+    background-color: transparent;
+    border: 0px;
+    width: auto;
+    font-size: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.links:hover{
+    color:yellowgreen
+}
