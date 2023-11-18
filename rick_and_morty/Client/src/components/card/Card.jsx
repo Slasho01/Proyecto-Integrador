@@ -52,9 +52,9 @@ function Card(props) {
         <h2 className={style.name}>{props.name}</h2>
       </Link>
       {/*          <h2>Estatus: {props.status}</h2>
-         <h2 className={style.gender}>Genero: {props.gender}</h2>
          <h2 className={style.especie}>Especie: {props.species}</h2> */}
-      <h2 className={style.especie}>Origen: {props.origin.name}</h2>
+      <h2 className={style.gender}>Genero: {props.gender}</h2>
+      <h2 className={style.especie}>Origen: {props.origin}</h2>
       <img className={style.image} src={props.image} alt={props.id} />
     </div>
   );

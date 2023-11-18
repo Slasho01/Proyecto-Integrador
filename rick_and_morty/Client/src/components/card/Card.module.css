@@ -23,12 +23,13 @@
    /*  white-space: break-word;
     word-break: break-all; */
 }
-/* .gender{
+ .gender{
     display: inline-block;
-    margin-top: -10px;
+    margin-top: 10px;
+    margin-bottom: -40px;
     font-size: 17px;
     color:rgb(40, 40, 41);
-} */
+}
 .especie{
     display:flow-root;
     margin-right: -15px;

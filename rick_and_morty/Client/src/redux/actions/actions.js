@@ -1,6 +1,8 @@
 import axios from "axios";
 export const ADD_FAV = 'ADD_FAV'
 export const REMOVE_FAV = 'REMOVE_FAV'
+export const FILTER = 'FILTER'
+export const ORDER = 'ORDER'
 
 /*export const addFav = (character) => {
   const endpoint = 'http://localhost:3001/rickandmorty/fav';
@@ -42,6 +44,7 @@ export const addFav = (character) => {
 export const removeFav = (id) => {
    const endpoint = 'http://localhost:3001/rickandmorty/fav/' + id;
    try {
+
       return async (dispatch) => {
          const { data } = await axios.delete(endpoint)
          return dispatch({
@@ -53,6 +56,22 @@ export const removeFav = (id) => {
       return console.error(error);
    }
 }
+export const filterCards = (gender) => {
+   return (dispatch) => {
+      return dispatch({
+         type: 'FILTER',
+         payload: gender,
+      });
+   }
+};
+export const orderCards = (order) => {
+   return (dispatch) => {
+      return dispatch({
+         type: 'ORDER',
+         payload: order,
+      });
+   }
+};
 /*   module.exports = {
     ADD_FAV,
     REMOVE_FAV,
