@@ -4,6 +4,10 @@ import { connect } from "react-redux";
 export function Favorites({ favorites }){
     return(
         <div>
+            <select>
+            <option value="Ascendente">Ascendente</option>
+            <option value="Descendente">Descendente</option>
+            </select>
             {favorites?.map((e) => 
                 <Card
                 id={e.id}
